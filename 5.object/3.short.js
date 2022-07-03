@@ -1,0 +1,15 @@
+const x = 0;
+const y = 0;
+const coordinate = { x: x, y: y };
+console.log(coordinate);
+
+// make that simple
+const coordinateSimply = { x, y };
+console.log(coordinateSimply);
+
+function makeObj(name, age) {
+  return {
+    name,
+    age,
+  };
+}
